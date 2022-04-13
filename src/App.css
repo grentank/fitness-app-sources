@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background: #2196F3;
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.client, .session {
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #2196F3;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.client-buttons > button, .session-buttons > button {
+  border: none;
+  border-radius: 2px;
+  background: #2196F3;
+  padding: 3px 15px;
+  color: white;
+  margin: auto 5px;
+  font-size: 1.2rem;
+}
+
+.sessions-title, .ex-list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.sessions-title > button, .ex-list-title > button, .exercise-buttons > button, .add-client > button, .edit-client > button {
+  border-radius: 5px;
+  border: 1px solid #2196F3;
+  padding: 3px 20px;
+  background: white;
+  color: #2196F3;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.all-sessions-wrapper > button {
+  border: none;
+  border-radius: 2px;
+  background: #2196F3;
+  padding: 3px 15px;
+  color: white;
+  margin: auto 5px;
+  font-size: 1.2rem;
+}
+
+.exercise-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 2px 5px;
+  padding: 2px;
+  color: white;
+  background: #2196F3;
+  font-size: .8rem;
+}
+
+.set p {
+  margin: 2px 0;
+}
+
+input {
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.set input {
+  width: 3rem;
+  border-radius: 5px;
+}
+
+.exercise-title > input {
+  width: 70%;
+}
+
+.set-buttons {
+  display: flex;
+  flex-direction: column;
+  margin: auto 5px;
+}
+
+.set-buttons button {
+  margin: 5px 5px;
+}
+
+.exercise-title {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.exercise-title > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: #2196F3;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+}
+
+.exercise-title > button, .set-buttons > button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.exercise-buttons {
+  margin-top: 5px;
+}
+
+.add-client, .edit-client {
+  margin: 10px;
+}
+
+.edit-client > button {
+  color: #F44336;
+  border-color: #F44336;
+}
